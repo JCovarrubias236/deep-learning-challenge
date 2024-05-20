@@ -7,7 +7,7 @@ The purpose of this analysis is to develop a deep learning model that can accura
 
 ### Data Preprocessing
 - **Target Variable(s):** The target for the model is the 'IS_SUCCESSFUL' variable, indicating if the funding was used effectively.
-![alt text](Target_Variables.png)
+![alt text](Target_Variable.png)
 - **Feature Variable(s):** Features include 'APPLICATION_TYPE', 'AFFILIATION', 'CLASSIFICATION', and other relevant metrics that could influence the outcome.
 ![alt text](Feature_Variables.png)
 - **Variables to Remove:** 'EIN' and 'NAME' should be removed as they are identifiers, not predictive features.
