@@ -7,9 +7,9 @@ The purpose of this analysis is to develop a deep learning model that can accura
 
 ### Data Preprocessing
 - **Target Variable(s):** The target for the model is the 'IS_SUCCESSFUL' variable, indicating if the funding was used effectively.
-![alt text](Target Variable.png)
+![alt text](Target_Variables.png)
 - **Feature Variable(s):** Features include 'APPLICATION_TYPE', 'AFFILIATION', 'CLASSIFICATION', and other relevant metrics that could influence the outcome.
-![alt text](Feature Variables.png)
+![alt text](Feature_Variables.png)
 - **Variables to Remove:** 'EIN' and 'NAME' should be removed as they are identifiers, not predictive features.
 
 ### Compiling, Training, and Evaluating the Model
@@ -17,7 +17,7 @@ The purpose of this analysis is to develop a deep learning model that can accura
   - Selected **three hidden layers** with **80 neurons each** respectively, to capture complex patterns in the data.
   - Used the **ReLU activation function** for hidden layers to introduce non-linearity, and **sigmoid** for the output layer for binary classification.
   - The rationale was to provide a balance between model complexity and computational efficiency.
-  ![alt text](Model Summary.png)
+  ![alt text](Model_Summary.png)
 - **Target Model Performance:**
   - The goal was to achieve an accuracy higher than 75%.
   - The model reached an accuracy of **74%**, thus barely not achieving the target performance.
